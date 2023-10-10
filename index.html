@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Informações de cliente</title>
+    <link rel="stylesheet" href="style.css">
+    <script> window.onerror = function (message, source, lineno, colno, error) {
+            alert("Ocorreu um erro de sintaxe na linha " + lineno + " do arquivo " + source + ": " + message);
+            return true;
+        };</script>
+
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Leads IXC</h1>
+    <table>
+        <tr>
+            <td>Pesquise o nome de um cliente: </td>
+            <td><input type="text" id="searchInput" name="inputField" size="40">
+            </td>
+
+        </tr>
+    </table>
+    <button type="button">OK</button>
+
+    <table id="tabela-clientes">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>CPF</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <h4>Preencha e-mail ou telefone para que possamos entrar em contato</h4>
+    <p>
+        Obrigado!
+    </p>
+</body>
+
+</html>
